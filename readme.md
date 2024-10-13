@@ -16,7 +16,7 @@ Adicione estilos personalizados para tornar a página única. *Cadê os alunos c
 
 Certifique-se de que a página seja totalmente responsiva, funcionando bem em telas de tamanhos variados, desde smartphones até desktops.  
 ### Dicas: 
-Explore a documentação do Bootstrap (h ps://www.w3schools.com/bootstrap5/) para 
+Explore a [documentação do Bootstrap](https://www.w3schools.com/bootstrap5/) para 
 encontrar recursos que se encaixem no design desejado.  
 Experimente diferentes classes do Bootstrap para es lizar os elementos da página.  
 Certifique-se de testar a página em disposi vos de diferentes tamanhos para garantir a responsividade.  
