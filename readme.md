@@ -25,15 +25,11 @@ Divirta-se criando seu "Estado da Arte"!
 
 ## Current stage of learning
 
-- [x] basic html (structure, paragraph, heading)
-- [x] html header
-- [x] images
-- [x] links
-- [x] citations
-- [x] basic style sheet
-- [ ] advanced css
-- [ ] introducing javascript
+- [x] basic html
+- [x] basic css
+- [ ] basic javascript
 - [ ] bootstrap
+- [ ] tailwind
 
 ## Reference Guide
 
