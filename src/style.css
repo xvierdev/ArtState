@@ -1,4 +1,7 @@
 /* Main ArtState Style - X'vierDev */
-*{
-    box-sizing: border-box;
+.footer{
+    align-items: center;
+    /* position: absolute; */
+    display: flexbox;
+    bottom: 0;
 }
