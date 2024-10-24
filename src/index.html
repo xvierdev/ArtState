@@ -18,8 +18,8 @@
     <!-- Cabeçalho da página -->
     <header>
         <div class="container-fluid bg-dark p-2">
-            <h1 class="display-1 text-white text-center">Filosofia à Maneira Clássica</h1>
-            <h2 class="text-white text-center">A viagem da consciência humana para o auto conhecimento.</h2>
+            <h1 class="display-2 text-white text-center">Filosofia à Maneira Clássica</h1>
+            <h2 class="text-white text-center">A consciência humana rumo ao conhecimento</h2>
         </div>
     </header>
 
@@ -33,9 +33,9 @@
                 <li class="nav-item">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Virtudes</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Link</a></li>
-                        <li><a class="dropdown-item" href="#">Another link</a></li>
-                        <li><a class="dropdown-item" href="#">A third link</a></li>
+                        <li><a class="dropdown-item" href="#">Devoção</a></li>
+                        <li><a class="dropdown-item" href="#">Investigação</a></li>
+                        <li><a class="dropdown-item" href="#">Serviço</a></li>
                     </ul>
                 </li>
                     <li class="nav-item">
@@ -48,53 +48,41 @@
         </div>
     </nav>
 
-    <div class="container">
-        <h1>My First Bootstrap Page</h1>
-        <p>This part is inside a .container class.</p>
-        <p>The .container class provides a responsive fixed width container.</p>
+    <div class="row">
+        <div class="col-3">
+          <nav id="navbar-example3" class="h-100 flex-column align-items-stretch border-end">
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link" href="#item-1">À Maneira Clássica</a>
+              <a class="nav-link" href="#item-2">Sobre o filósofo</a>
+              <a class="nav-link" href="#item-3">Origem do Termo</a>
+            </nav>
+          </nav>
+        </div>
+      
+        <div class="col-9">
+            <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+                <div id="item-1">
+                    <h4>Por que à maneira classica?</h4>
+                    <p>A filosofia à maneira clássica trata das questões humanas mais fundamentais da mesma forma que os angitos como Pitógora, Sócrates e Platão o faziam.</p>
+                    <p>As questões mais fundamentais do ser humana como <em>De onve viemos?</em> <em>Para onde vamos?</em> <em>Qual o sentido da vida?</em> procuram ser respondidas através da busca interior pela verdade.</p>
+                </div>
+                <div id="item-2">
+                    <h4>Qual a diferença entre o filósofo e um ser humano comum?</h4>
+                    <p>Um filósofo está em uma busca pela sabedoria, pelo conhecimento da verdade, mas afinal o que é a sabedoria?</p>
+                    <p>Diferentemente do conhecimento puramente intelectal, a sabedoria consiste na vivência do conhecimento de forma profunda refletindo o <strong>saber viver</strong> de acordo com as leis do universo.</p>
+                    <p>Muitas pessoas depois de refletirem sobre a própria vida compreendem que nada sabem sobre o como e porque dessa mesma existência, </p>
+                </div>
+                <div id="item-3">
+                    <h4>Origem do termo filósofo</h4>
+                    <p>A palavra <strong>Filosofia</strong> tem origem no grego e significa "amor à sabedoria". Seu objetivo é refletir sobre questões fundamentais da vida humana, buscando respostas para viver de forma mais plena e satisfatória.</p>
+                    <p>A palavra filosofia vem do grego philosophia e significa: philo- amizade, amor, afeição e sophia - sabedoria. Portanto, a filosofia significa o respeito, amor e apreço pelo saber. O termo filosofia foi cunhado pelo matemático e filósofo Pitágoras, que viveu no século V a. C,  a partir da junção das palavras philo e sophia. </p>
+                    <p>Para Pitágoras, a filosofia seria o caminho para atingir a sabedoria divina. Na visão do matemático, a sabedoria completa pertencia somente aos deuses, no entanto, os humanos poderiam aproximar-se dela a partir do amor e apreço pelo conhecimento, poderiam se aproximar de algo divino no momento que se tornassem filósofos.</p>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <pre>
-        large content
-        large content
-        large content
-        large content
-        large content
-        large content
-        large content
-        large content
-        large content
-        large content
-        large content
-        large content
-        large content
-        large content
-        large content
-        large content
-        large content
-        large content
-        large content
-        large content
-        large content
-        large content
-        large content
-        large content
-        large content
-        large content
-        large content
-        large content
-        large content
-        large content
-        large content
-        large content
-        large content
-        large content
-        large content
-        large content
-        large content
-    </pre>
-
-    <footer class="footer container-fluid text-center p-2 bg-dark text-white mt-5">
+    <footer class="fixed-bottom container-fluid text-center p-2 bg-dark text-white mt-5">
         <p>Filosofia à maneira clássica</p>
     </footer>
 
