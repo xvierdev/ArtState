@@ -1,0 +1,10 @@
+.justify{
+    text-align: justify;
+}
+.footer{
+    /* position: fixed; */
+    display: table;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+}
