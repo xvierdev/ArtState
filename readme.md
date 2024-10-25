@@ -4,7 +4,7 @@
 
 Você deve criar uma página da web responsiva, a partir da atividade 1, usando Bootstrap.  
 Seu objetivo é projetar uma página que se destaque pelo design, usabilidade e responsividade.  
-Você deve aplicar pelo menos 8 recursos do Bootstrap. Seja cria vo(a)!  
+Você deve aplicar pelo menos 8 recursos do Bootstrap. Seja criativo(a)!  
 
 ## Requisitos
 
